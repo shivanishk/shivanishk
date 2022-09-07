@@ -671,6 +671,8 @@ h6 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 75% 100%;
+	background-attachment: fixed;
+    opacity: .3;
 }
 .edrea_hero .content {
 	position: relative;
@@ -679,7 +681,7 @@ h6 {
 }
 .edrea_hero .content_in {
 	width: 100%;
-	max-width: 710px;
+	max-width: 800px;
 	min-height: 100vh;
 	padding: 125px 0;
 	display: flex;
